@@ -1,0 +1,17 @@
+body {
+	background: #7e75e5;
+}
+
+.bp3-input {
+	background: #5e73ba;
+	outline: none;
+	margin-right: 15px;
+}
+.nav {
+	padding: 10px 20px;
+	background: #7ca1c8;
+}
+.bp3-button {
+	background: #5384d7 !important;
+	color: #000000; 
+}
