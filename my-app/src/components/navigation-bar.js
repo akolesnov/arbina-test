@@ -1,16 +1,16 @@
 import React from 'react';
 import { Navbar } from "@blueprintjs/core";
-import AddButton from '../add-button/add-button.js';
-import SearchInput from '../search-input/search-input.js';
+import AddButton from './add-button';
+import SearchInput from './search-input';
 
-import './navigation-bar.css';
 
 function NavigationBar({search, onSearchChange, addItem}){
 	
 	return(
 		<Navbar className="nav.bp3-navbar nav">
 			<SearchInput 
-				onSearchChange={onSearchChange}/>
+				onSearchChange={onSearchChange}
+				/>
 			<AddButton 
 				addItem={addItem}
 			/>

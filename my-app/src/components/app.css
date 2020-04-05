@@ -15,3 +15,6 @@ body {
 	background: #5384d7 !important;
 	color: #000000; 
 }
+.list {
+	list-style: none;
+}
